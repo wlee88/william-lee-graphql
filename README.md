@@ -1,5 +1,9 @@
 # GraphQL - William Lee
 
-My personal graphQl database for all data about me
+My personal graphQl database for all data about me.
 
-Run with `npm run start`.
+## Deployment steps
+
+- install `serverless` (can't remember the site but lazy so do `npm install -g serverless)
+
+- run `serverless deploy`.
