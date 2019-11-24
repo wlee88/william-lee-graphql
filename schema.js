@@ -5,9 +5,11 @@ const typeDefs = gql`
 type Query {
     "My name"
     name: String!
-    "I'm english, innit"
+    "Years building things professionally"
+    devAge: String!
+    "I'm english, innit 🇬🇧"
     born: String!
-    "Wanna get in touch?"
+    "Wanna get in touch? ✉️"
     email: String!
     "My up to date curriculum vitae"
     resume: String!

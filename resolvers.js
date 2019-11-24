@@ -1,4 +1,12 @@
 const BORN = "United Kingdom";
+const DEVELOPER_AGE = () => {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+
+  const yearStartedProfessionalDevelopment = 2009;
+
+  return `about ${currentYear-yearStartedProfessionalDevelopment} years`;
+};
 const EMAIL = "me@william-lee.com";
 const FAVOURITE_TECH = ['JS/Typescript', 'Angular', 'Ruby/On rails'];
 const GITHUB = "https://github.com/wlee88";
@@ -21,15 +29,16 @@ const SOUNDCLOUD = "https://soundcloud.com/wlee88";
 
 module.exports = {
     Query: {
-      name: () => NAME,
       born: () => BORN,
+      devAge: () => DEVELOPER_AGE(),
       email: () => EMAIL,
       favouriteTech: () => FAVOURITE_TECH,
-      resume: () => RESUME,
       hobbies: () => HOBBIES,
-      linkedIn: () => LINKED_IN,
       github: () => GITHUB,
-      soundcloud: () => SOUNDCLOUD,
-      secretWebsites: () => SECRET_WEBSITES
+      linkedIn: () => LINKED_IN,
+      name: () => NAME,
+      resume: () => RESUME,
+      secretWebsites: () => SECRET_WEBSITES,
+      soundcloud: () => SOUNDCLOUD
     }
   };
