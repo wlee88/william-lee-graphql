@@ -8,7 +8,7 @@ const DEVELOPER_AGE = () => {
   return `about ${currentYear-yearStartedProfessionalDevelopment} years`;
 };
 const EMAIL = "me@william-lee.com";
-const FAVOURITE_TECH = ['JS/Typescript', 'Angular', 'Ruby/On rails'];
+const FAVOURITE_TECH = ['JS/Typescript', 'Angular 8+', 'C#/.NET core', 'Ruby/On rails', 'Machine learning'];
 const GITHUB = "https://github.com/wlee88";
 const HOBBIES = [
   'Playing fast things on guitar', 
